@@ -30,3 +30,139 @@ header {
     text-decoration: none;
     color: black;
 }
+section.banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ section.banner.conteudo {
+    background-color: #e7e7e7;
+    padding: 12px;
+
+ }
+ section.banner  .botao{
+    margin:12px 12px;
+    background-color: bisque ; 
+    padding: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+ }
+ section.sobre{
+    width: 100%;
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+ }
+ section.sobre .imagem img{
+    width:50vw ;
+ }
+ section.Sobre div{
+    width:50vw ;
+    overflow: hidden;
+ }
+ section.Sobre .conteudo{
+    margin:12px 24px ;
+ }
+section.produtos {
+    width: 100%;
+    margin: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+section.jumbotron {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 90px auto;
+    gap: 22px;
+}
+
+section.jumbotron div.banner-pequeno {
+    margin: 0px 25px;
+    padding: 18px;
+}
+
+section#sobre {}
+
+section#sobre {
+    display: flex;
+    flex-direction: row;
+}
+
+section.jumbotron div.banner-pequeno h3 {
+    font-size: 25px;
+    line-height: 0px;
+}
+
+section.jumbotron div.banner-pequeno h3 {
+    font-size: 18px;
+    line-height: 0px;
+}
+
+section.jumbotron banner-pequeno p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+section.jumbotron div .bannner-pequeno button {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 18px;
+
+}section.jumbotron div.banner-pequeno {
+    margin: 0px 25px;
+    padding: 18px;
+    border: 1px solid;
+    border-radius: 6px;
+    background: grey;
+}
+section.jumbotron div .banner-pequeno.dark{
+    border-color: transparent;
+    background-color: #212529;
+}
+
+
+section.jumbotron bannner-pequeno.dark button,
+section.jumbotron banner-pequeno.dark p,
+section.jumbotron div.banner-pequeno.dark h3{
+     color: #e7e7e7;
+    border-color: white;
+
+}
+section.jumbotron div.bannner-pequeno button:hover{
+               background-color:#212529;
+               color:#fefefe;
+               border-color:#fefefe;
+}
+
+section.jumbotron div.bannner-pequeno.dark  button:hover{
+                background-color: #fefefe;
+                color: #212529;
+                border-color: #212529;
+}
+
+
+
